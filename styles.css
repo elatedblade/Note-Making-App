@@ -1,0 +1,56 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Noto Sans Mono', monospace;
+}
+
+header{
+    text-align: center;
+    padding: 50px 0px;
+    font-size: 48px;
+    background-color: rgb(168, 85, 245);
+}
+
+main{
+    background-color: rgb(198, 144, 249);
+}
+
+
+#add-note{
+    margin: auto;
+    width: 100px;
+}
+
+#add-note button{
+    /* margin: 25px; */
+    display: block;    
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: rgb(20, 64, 210);
+    color: beige;
+    font-size: 32px;
+    /* border: none; */
+    border: 2px solid yellow;
+}
+
+#notes-menu{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 50px;
+    justify-content: space-evenly;
+    width: 80%;
+    height: auto;
+    margin: auto;
+}
+
+.note{
+    width: 100px;
+    height: auto;
+    background-color: white;
+    box-shadow: 10px 10px rgba(20, 64, 210, 0.500);
+    padding: 10px;
+    margin: 20px;
+
+}
