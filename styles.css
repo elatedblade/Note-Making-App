@@ -15,7 +15,8 @@ header{
 
 #container{
     background-color: rgb(198, 144, 249);
-    height: 750px;
+    min-height: 750px;
+    height: auto;
 }
 
 
